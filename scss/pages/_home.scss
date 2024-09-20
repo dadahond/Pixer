@@ -1,0 +1,129 @@
+// .parent {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   margin: 0 auto;
+//   max-width: 800px;
+//   width: 100%;
+//   .child {
+//     width: 100%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     flex-direction: row;
+//     &:nth-child(odd) {
+//       flex-direction: row-reverse;
+//     }
+//     .img {
+//       width: 100px;
+//       height: 100px;
+//       background: #000;
+//     }
+//   }
+// }
+.xizmatlar__container {
+  padding-top: 6.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+}
+
+.xizmatlar__container__title {
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.xizmatlar__container__description {
+  text-align: center;
+  max-width: 71.9rem;
+  width: 100%;
+  margin-bottom: 1.6rem;
+}
+
+.xizmatlar__box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7rem;
+  justify-content: center;
+}
+
+.xizmatlar__card {
+  max-width: 32rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  padding: 2.4rem 4.9rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.xizmatlar__card__image {
+  margin-bottom: 1.6rem;
+}
+
+.xizmatlar__card__title {
+  margin-bottom: 1.6rem;
+}
+
+.xizmatlar__button {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.6rem;
+  padding-bottom: 5.4rem;
+}
+
+.ishlaymiz__takliflar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  .ishlaymiz__takliflar__card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+.ishlaymiz__container {
+  padding-top: 5.6rem;
+  padding-bottom: 1.6rem;
+}
+
+.ishlaymiz__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ishlaymiz__title {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.ishlaymiz__description {
+  text-align: center;
+  margin-bottom: 1.6rem;
+  max-width: 71rem;
+}
+
+.ishlaymiz__takliflar__description {
+  max-width: 50rem;
+}
+
+.ishlaymiz__btn {
+  align-self: center;
+  padding-top: 1.6rem;
+}

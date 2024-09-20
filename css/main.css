@@ -1,1 +1,246 @@
-/*# sourceMappingURL=main.css.map */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v40-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/open-sans-v40-latin-700.woff2") format("woff2");
+}
+.btn {
+  padding: 0.8rem 1.6rem;
+  background-color: #00bafc;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1019607843);
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.header__menu__list {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.header__menu__link {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: black;
+  transition: 0.4s;
+}
+.header__menu__link:hover {
+  color: rgb(27, 189, 9);
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.header__btn {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+.hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8rem;
+  padding-bottom: 6.8rem;
+}
+
+.hero__article {
+  max-width: 47rem;
+  width: 100%;
+}
+
+.hero__article__description {
+  margin-top: 1.6rem;
+}
+
+.hero__article__btn {
+  margin-top: 1.6rem;
+}
+
+.hero__article__btn:hover {
+  background-color: rgb(6, 218, 176);
+  transition: 0.3s;
+}
+
+.hero__video {
+  border-radius: 1rem;
+}
+
+.xizmatlar__container {
+  padding-top: 6.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.xizmatlar__container__title {
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.xizmatlar__container__description {
+  text-align: center;
+  max-width: 71.9rem;
+  width: 100%;
+  margin-bottom: 1.6rem;
+}
+
+.xizmatlar__box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7rem;
+  justify-content: center;
+}
+
+.xizmatlar__card {
+  max-width: 32rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1019607843);
+  padding: 2.4rem 4.9rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.xizmatlar__card__image {
+  margin-bottom: 1.6rem;
+}
+
+.xizmatlar__card__title {
+  margin-bottom: 1.6rem;
+}
+
+.xizmatlar__button {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.6rem;
+  padding-bottom: 5.4rem;
+}
+
+.ishlaymiz__takliflar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.ishlaymiz__takliflar .ishlaymiz__takliflar__card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.ishlaymiz__takliflar .ishlaymiz__takliflar__card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.ishlaymiz__container {
+  padding-top: 5.6rem;
+  padding-bottom: 1.6rem;
+}
+
+.ishlaymiz__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ishlaymiz__title {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.ishlaymiz__description {
+  text-align: center;
+  margin-bottom: 1.6rem;
+  max-width: 71rem;
+}
+
+.ishlaymiz__takliflar__description {
+  max-width: 50rem;
+}
+
+.ishlaymiz__btn {
+  align-self: center;
+  padding-top: 1.6rem;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,77 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+}
+
+.header-logo {
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.header__menu__list {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.header__menu__item {
+}
+
+.header__menu__link {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: black;
+  transition: 0.4s;
+  &:hover {
+    color: rgb(27, 189, 9);
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+}
+
+.header__btn {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+.hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8rem;
+  padding-bottom: 6.8rem;
+}
+
+.hero__article {
+  max-width: 47rem;
+  width: 100%;
+}
+
+.hero__article__title {
+}
+
+.hero__article__description {
+  margin-top: 1.6rem;
+}
+
+.hero__article__btn {
+  margin-top: 1.6rem;
+}
+
+.hero__article__btn:hover {
+  background-color: rgb(6, 218, 176);
+  transition: 0.3s;
+}
+
+.hero__video {
+  border-radius: 1rem;
+}
